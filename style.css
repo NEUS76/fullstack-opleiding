@@ -1,17 +1,36 @@
+/* Basis styling */
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
-    color: #1A1B61;
-    text-align: center;
-    margin: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f3f3f3;
+    color: #333;
+    margin: 0;
+    padding: 20px;
 }
 
+/* Koppen */
 h1 {
-    color: #000000;
-    font-size: 36px;
+    color: #0055ff;
+    text-align: center;
 }
 
 h2 {
-    color: #000000;
-    font-size: 28px;
+    color: #333;
+    border-bottom: 2px solid #0055ff;
+    padding-bottom: 5px;
+    margin-top: 30px;
+}
+
+/* Paragraaf styling */
+p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+/* Een container voor je content */
+.container {
+    max-width: 800px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
 }
