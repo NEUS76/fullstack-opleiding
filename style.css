@@ -26,7 +26,7 @@ p {
     line-height: 1.6;
 }
 
-/* Een container voor je content */
+/* Container */
 .container {
     max-width: 800px;
     margin: auto;
@@ -35,10 +35,36 @@ p {
     border-radius: 10px;
 }
 
-/* Afbeeldingen styling */
-
-    img {
+/* Afbeeldingen */
+img {
     border-radius: 10px;
     margin: 20px 0;
     display: block;
 }
+
+/* Afbeeldingen naast elkaar */
+.img-row {
+    display: flex;
+    gap: 20px; 
+    justify-content: center;
+}
+
+.img-row img {
+    width: 200px;
+    border-radius: 10px;
+}
+
+/* Button styling */
+button {
+    background-color: #0055ff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #003bb5;
+}
+
