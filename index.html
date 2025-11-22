@@ -1,23 +1,22 @@
 
-<!DOCTYPE html>
+<<!DOCTYPE html>
 <html lang="nl">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fullstack Opleiding Les 1</title>
+    <title>Fullstack Opleiding Les 8</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 <div class="container">
-    <h1>Welkom bij Fullstack Opleiding Les 1</h1>
-    <p>Dit is je eerste webpagina!</p>
+    <h1>Welkom bij Fullstack Opleiding Les 8</h1>
+    <p>Dit is je webpagina met interactieve JavaScript knoppen!</p>
 
     <h2>Over mij zelf</h2>
     <p>Ik ben een man van 49 die iets nieuws gaat leren en hoop dit leuk te vinden.</p>
 
     <h2>Mijn hobby's</h2>
     <ul>
-
         <li>Films kijken
             <ul>
                 <li>Science fiction</li>
@@ -26,7 +25,7 @@
         </li>
         <li>Wandelen</li>
         <li>Programmeren</li>
-</ul>
+    </ul>
 
     <h2>Mijn doelen</h2>
     <p>Ik wil fullstack developer worden en mooie webpagina's maken.</p>
@@ -35,7 +34,6 @@
     <p>Ik wil websites en apps leren bouwen zodat ik meer ervaring krijg in techniek en iets nieuws kan leren op mijn eigen tempo.</p>
 
     <h2>Mijn favoriete eten</h2>
-
     <div class="image-row">
         <img src="img/pitza.jpg" alt="pitza">
         <img src="img/pasta.jpg" alt="pasta">
@@ -50,25 +48,36 @@
     </ol>
 
     <h2>Mijn favoriete websites</h2>
-<ul>
-     <li><a href="http://www.google.com" target="_blank">Google</a></li>
-     <li><a href="http://www.youtube.com" target="_blank">Youtube</a></li>
-</ul> 
+    <ul>
+        <li><a href="http://www.google.com" target="_blank">Google</a></li>
+        <li><a href="http://www.youtube.com" target="_blank">Youtube</a></li>
+    </ul>
+
+    <h2>Neem contact met mij op</h2>
+    <p>Wil jij mij iets vragen? Klik dan op de button hieronder en stuur mij een e-mail:</p>
+    <a href="mailto:mtbouwservice76@gmail.com"> 
+        <button>Klik hier!</button>
+    </a>
+
+    <h2>Interactie met JavaScript</h2>
+    <p>Klik op de knop hieronder om een bericht te zien:</p>
+    <button id="showMessageBtn">Klik hier!</button>
+    <p id="message"></p>
+
+    <h2>Meer interactie met JavaScript</h2>
+    <button id="alertBtn">Laat alert zien</button>
+    <button id="bgBtn">Verander achtergrondkleur</button>
+    <button id="addItemBtn">Voeg een lijstitem toe</button>
+    <button id="removeItemBtn">Verwijder laatste item</button>
 
 
-     <h2>Neem contact met mij op</h2>
-     <p>Wil jij mij iets vragen? Klik dan op de button hieronder en stuur mij een e-mail</p>
-     <a href="mailto:mtbouwservice76@gmail.com"> 
-     <button>Klik hier!</button>
-</a>
-
-<h2>Interactie met JavaScript</h2>
-<p>Klik op de knop hieronder om een bericht te zien:</p>
-<button id="showMessageBtn">Klik hier!</button>
-<p id="message"></p>
-<script src="js/script.js"></script>
-
+    <ul id="dynamiclist">
+        <li>startitem</li>
+    </ul>
 
 </div>
+
+<script src="js/script.js"></script>
 </body>
 </html>
+
