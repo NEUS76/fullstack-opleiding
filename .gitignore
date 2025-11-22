@@ -1,3 +1,23 @@
+# Visual Studio / VS Code / IDE bestanden
 .vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.vscode/
+
+# Windows thumbnail cache
+Thumbs.db
+
+# Node / npm / JS modules (voor later projecten)
 node_modules/
+
+# Log files
 *.log
+
+# Build / output folders
+bin/
+obj/
+
+# Mac / Linux bestanden (optioneel)
+.DS_Store
